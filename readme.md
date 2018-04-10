@@ -5,10 +5,10 @@
 #### set_default
 
 ### toggle
-> **параметры**: отсутствуют
->
-> **команда оригинал**: _toggle_
+##### параметры:
+отсутствуют
 
+##### **команда оригинал**: `toggle`
 
 #### bg_toggle
 #### all_togle
@@ -16,8 +16,23 @@
 #### bg_power
 #### bright
 #### bg_bright
-#### ct
-#### bg_ct
+### ct
+##### параметры:
+* `ct` - color temperature
+* `effect`
+* `duration` [ms]
+
+##### **команда оригинал**: `set_ct_abx`
+
+### ct
+**параметры**:
+* `ct` - color temperature
+* `effect`
+* `duration` *[ms]*
+
+**команда оригинал**: `set_ct_abx`
+
+### bg_ct
 
 ### Color commands:
 #### rgb
