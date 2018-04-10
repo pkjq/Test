@@ -1,30 +1,32 @@
 # Title
 
-## Commands:
+# Commands:
 #### bg_set_default
 #### set_default
 
-### toggle
-##### параметры:
-отсутствуют
+## toggle / bg_toggle / all_togle
+переключить состояние питания на противоположное
 
-##### **команда оригинал**: `toggle`
+**параметры**: *отсутствуют*
 
-#### bg_toggle
-#### all_togle
-#### power
-#### bg_power
-#### bright
-#### bg_bright
-### ct
-##### параметры:
-* `ct` - color temperature
-* `effect`
-* `duration` [ms]
+**команда оригинал**: `toggle` / `bg_toggle` / `all_togle`
 
-##### **команда оригинал**: `set_ct_abx`
 
-### ct
+## power / bg_power
+управление состоянием питания
+
+**параметры**:
+* `action: [on/off]`
+* `effect` - **FIX THIS**
+* `duration`
+* `mode` - **TODO**
+
+**команда оригинал**: `set_power` / `bg_set_power`
+
+
+## bright / bg_bright
+
+## ct
 **параметры**:
 * `ct` - color temperature
 * `effect`
