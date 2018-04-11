@@ -64,10 +64,11 @@
 * `flow_expression` - массив эффектов:
   
   Возможны следующие комбинации:
-    * { duration, [brightness], ct }
-    * { duration, [brightness], rgb } | { duration, [brightness], r,g,b }
-    * { sleep }
-
+  ```
+    { duration, [brightness], ct }
+    { duration, [brightness], rgb } | { duration, [brightness], r,g,b }
+    { sleep }
+  ```
   где:
     * `brightness` - яркость _[1, 100]_
     * `duration` - продолжительность перехода в _ms_
