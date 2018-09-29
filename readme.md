@@ -5,7 +5,7 @@
 Управление состоянием питания.
 
 **параметры**:
-* `action` : _[on/off]_ или _[true,false]_
+* `action` : _[on/off]_ или _[true/false]_
 * `duration` - продолжительность перехода в _ms_
 * `mode` - **TODO**
 
